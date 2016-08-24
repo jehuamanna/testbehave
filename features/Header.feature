@@ -10,7 +10,7 @@ Feature: Header
 
 
 	Scenario: Eventosour logo
-		Given clicked 
+		Given clicked the logo
 		Then a page with title "Eventosaur Learn"
 
 	Scenario: Plan
@@ -22,11 +22,11 @@ Feature: Header
 		Then a page with title "Eventosour Learn"
 		
 	Scenario: How it works
-		Given clicked 
+		Given clicked a link "How it works"
 		Then a page with title "How Eventosaur works and how it can help you"
 			
 
 	Scenario: Phone no
-		Given clicked
+		Given clicked the link "+91-96636-4488"
 		Then whatever
 	
