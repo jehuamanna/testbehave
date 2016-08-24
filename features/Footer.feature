@@ -4,5 +4,13 @@ Feature: footer
 		Then update the email and message
 		And return to home page with a thankyou notice
 
-	Scenario:
+	Scenario: The blog
+		Given user clicks Blog link
+		Then load the eventosaur blog page
+
+	Scenario: Learn link
+		Given user clicks on Learn link
+		Then load the eventosaur learn page
+	
+	Scenario: 	
 
