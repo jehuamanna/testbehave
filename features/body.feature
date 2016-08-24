@@ -1,7 +1,6 @@
 Feature: this include the links from left side bar and carousels
 
 
-    ###############Not sure of the search case ###### let me know#########
     # When we eventually run these tests, the database will be empty. We'll need to populate them first
     # using a `Background` scenario.
 
@@ -40,39 +39,10 @@ Feature: this include the links from left side bar and carousels
         Then posts with class name "<link>" are shown
         And posts without class name "<link>" are hidden
 		
-		Examples: footer links
-		|link	     |
-        |Traditional |
-        |Corporate   |
-
-
-#####################################################################################
-#		I am not sure of the following hence incomplete			#####
-#####################################################################################
-
-	Scenario: Traditional
-		Given clicked on link "Traditional"
-		Then hide the carousel 
-
-
-	Scenario: Non-Traditional
-		Given clicked on "Non-Traditional"
-		Then ?
-
-
-	Scenario: Weddings
-		Given clicked on "Weddings"
-		Then ?
-
-
-	Scenario: Corporate
-		Given clicked on "Corporate"
-		Then ?
-
-
-	Scenario: Partners
-		Given clicked on "Partners"
-		Then drop down
-
-
-
+		Examples: body links
+		|link			|
+    		|Traditional		|
+        	|Corporate		|
+		|Non-Traditional	|
+		|Weddings		|
+		|Partners		|

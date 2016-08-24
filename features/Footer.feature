@@ -6,7 +6,6 @@ Feature: footer
 		And return to a page with title "Eventosaur Learn" 
 		And displays a message "Thank you for contacting Eventosaur. We will get back in touch shortly"
 
-    # the table one is `Scenario Outline` and not `Scenarios`
 	Scenario Outline: Links
 		Given user clicks on "<link>"
 		Then the page title contains "<title>"
@@ -17,7 +16,7 @@ Feature: footer
 		|Learn	|Learn   |
 		|About	|About   |
 		|FAQ	|FAQ	 |
-        |Contact|Contact |
+       		|Contact|Contact |
 
 
 		
