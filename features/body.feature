@@ -5,52 +5,52 @@ Feature: this include the links from left side bar and carousels
 		Then hide the carousel 
 
 	Scenario: Non-Traditional
-		Given
-		Then
+		Given clicked on "Non-Traditional"
+		Then ?
 
 
 	Scenario: Weddings
-		Given
-		Then
+		Given clicked on "Weddings"
+		Then ?
 
 
 	Scenario: Corporate
-		Given
-		Then
+		Given clicked on "Corporate"
+		Then ?
 
 
 	Scenario: Partners
-		Given
-		Then
+		Given clicked on "Partners"
+		Then drop down
 
 
 	Scenario: Upakarma
-		Given
-		Then
+		Given clicked on "Upakarma"
+		Then load a page with title "Upakarma (Avani Avittam) - thread-changing"
 
 
 	Scenario: Caterers
-		Given
-		Then
+		Given clicked on "Caterers"
+		Then load a page with title "Caterers"
 
 
 	Scenario: Decorators
-		Given
-		Then
+		Given clicked on "Decorators"
+		Then load a page with title "Decorators"
 
 
 	Scenario: Venue
-		Given
-		Then
+		Given clicked on "Venue"
+		Then load a page with title "Venue"
 
 
 	Scenario: Pandits
-		Given
-		Then
+		Given clicked on "Pandits"
+		Then load a page with title "Pandits"
 
 
 	Scenario: Photographers
-		Given
-		Then
+		Given clicked on "Photographers"
+		Then load a page with title "Photographers"
 
 
