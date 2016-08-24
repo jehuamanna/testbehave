@@ -24,7 +24,7 @@ Feature: Header
 	Scenario: logout
 		Given a user already logged in with "test@gmail.com" and clicks on "Sign out"
 		Then the  user gets  logged out
-		And return back to page with title "Eventasour Learn
+		And return back to page with title "Eventasour Learn"
 
 ############################################################################################################
 	
