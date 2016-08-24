@@ -1,11 +1,32 @@
 Feature: this include the links from left side bar and carousels
+
+
+###############Not sure of the search case ###### let me know#########
+
 	Scenario: Search tool bar
 		Given user enterd "eventosaur" as a search item
 		Then return results and display in a container
+	
+	Scenarios: for links Upakarma, Caterers, Decorators, Venue, Pandits, Photographers
+		Given cliked on <link>
+		Then the page should have a "<title>"
 
+		Examples: body links
+		|link		|title						|
+		|Upakarma	|Upakarma (Avani Avittam) - thread-changing	|
+		|Caterers	|Caterers					|
+		|Decorators	|Decorators					|
+		|Venue		|Venue						|
+		|Pandits	|Pandits					|
+		|Photographers	|Photographers					|
+
+
+#####################################################################################
+#		I am not sure of the following hence incomplete			#####
+#####################################################################################
 
 	Scenario: Traditional
-		Given clicked
+		Given clicked on link "Traditional"
 		Then hide the carousel 
 
 
@@ -28,34 +49,5 @@ Feature: this include the links from left side bar and carousels
 		Given clicked on "Partners"
 		Then drop down
 
-
-	Scenario: Upakarma
-		Given clicked on "Upakarma"
-		Then load a page with title "Upakarma (Avani Avittam) - thread-changing"
-
-
-	Scenario: Caterers
-		Given clicked on "Caterers"
-		Then load a page with title "Caterers"
-
-
-	Scenario: Decorators
-		Given clicked on "Decorators"
-		Then load a page with title "Decorators"
-
-
-	Scenario: Venue
-		Given clicked on "Venue"
-		Then load a page with title "Venue"
-
-
-	Scenario: Pandits
-		Given clicked on "Pandits"
-		Then load a page with title "Pandits"
-
-
-	Scenario: Photographers
-		Given clicked on "Photographers"
-		Then load a page with title "Photographers"
 
 
