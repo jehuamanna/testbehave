@@ -13,7 +13,7 @@ Feature: post
 		|Linkedin|Linkedin|
 		|GoooglePlus|Google+|
 
-#I am not sure how will generate the related links. And how will you collect those links.
+#I am not sure how are the related links are generated. And how will you collect those links.
 
 	Scenario: related posts
 		Given <link> clicked in Related Posts
