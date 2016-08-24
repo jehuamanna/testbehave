@@ -40,9 +40,9 @@ Feature: this include the links from left side bar and carousels
         And posts without class name "<link>" are hidden
 		
 		Examples: body links
-		|link			|
-    		|Traditional		|
-        	|Corporate		|
-		|Non-Traditional	|
-		|Weddings		|
-		|Partners		|
+		|link		|
+    		|Traditional	|
+        	|Corporate	|
+		|Non-Traditional|
+		|Weddings	|
+		|Partners	|
