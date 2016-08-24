@@ -1,8 +1,13 @@
 Feature: this include the links from left side bar and carousels
+	Scenario: Search tool bar
+		Given user enterd "eventosaur" as a search item
+		Then return results and display in a container
+
 
 	Scenario: Traditional
 		Given clicked
 		Then hide the carousel 
+
 
 	Scenario: Non-Traditional
 		Given clicked on "Non-Traditional"
