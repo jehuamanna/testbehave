@@ -6,5 +6,5 @@ Feature: Header
 	Scenario: logout
 		Given a user already logged in with "test@gmail.com"
 		Then user logged out
-		And return back to login with google link
+		And return back to page with title "Eventasour Learn"
 
