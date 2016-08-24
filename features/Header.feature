@@ -8,3 +8,25 @@ Feature: Header
 		Then user logged out
 		And return back to page with title "Eventasour Learn"
 
+
+	Scenario: Eventosour logo
+		Given clicked 
+		Then a page with title "Eventosaur Learn"
+
+	Scenario: Plan
+		Given clicked a link "Plan"
+		Then a page with title "Eventosaur - Plan"
+		
+	Scenario: Learn
+		Given clicked Learn
+		Then a page with title "Eventosour Learn"
+		
+	Scenario: How it works
+		Given clicked 
+		Then a page with title "How Eventosaur works and how it can help you"
+			
+
+	Scenario: Phone no
+		Given clicked
+		Then whatever
+	
